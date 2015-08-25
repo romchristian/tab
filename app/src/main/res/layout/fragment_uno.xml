@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="movil.ideaspymes.com.tab.UnoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <View
+                android:id="@+id/circulo"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/circulo2" />
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circulo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:fontFamily="sans-serif-thin"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="22dp"
+                android:textColor="#fff"
+                android:textSize="45sp" />
+
+            <TextView
+                android:layout_toRightOf="@+id/circulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facturas Emitidas"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FAAC58"
+                android:fontFamily="sans-serif-thin"
+
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <View
+                android:id="@+id/circulo2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circulo4" />
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circulo3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:fontFamily="sans-serif-thin"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_toRightOf="@+id/circulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facturas Anuladas"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FA5858"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
